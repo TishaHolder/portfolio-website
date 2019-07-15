@@ -150,9 +150,21 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #3e3e3e;		
 		margin: 0 0 0.75em 0;
 	}
+
+	/****************Intro text*********************/
+	header h1 {
+		color: white;
+		font-weight: 700;
+	}
+
+	.intro-text {
+		color: white;
+		font-weight: 500;			
+	}
+	/*********************************************/
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		text-decoration: none;
@@ -385,6 +397,7 @@ input, select, textarea {
 
 		.row > .col-8 {
 			width: 66.66667%;
+			
 		}
 
 		.row > .off-8 {
@@ -865,6 +878,7 @@ input, select, textarea {
 
 				.row > .col-7-large {
 					width: 58.33333%;
+					
 				}
 
 				.row > .off-7-large {
@@ -1118,6 +1132,7 @@ input, select, textarea {
 
 				.row > .col-8-medium {
 					width: 66.66667%;
+			
 				}
 
 				.row > .off-8-medium {
@@ -1995,7 +2010,10 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			/*background-color: #fff;*/
+			/*background-color: #F87B99;*/
+			background-color: purple;
+			
 		}
 
 		.wrapper.style2 {
@@ -2104,8 +2122,10 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	/****************changed padding in the intro section********************/
 	#top {
-		padding: 10em 0 10em 0;
+		/*padding: 10em 0 10em 0;*/
+		padding: 5em 0 5em 0;
 		text-align: left;
 	}
 
